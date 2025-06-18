@@ -11,9 +11,15 @@
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description">This is a simple demo project demo for the Free Code Camp's Responsive Web Design Course</p>
         <form id="survey-form">
-            <input type="text" required id="name">
-            <input type="email" required id="email">
-            <input type="number" id="number" min="1" max="500">
+            <label id="name-label"><input type="text" required id="name"></label>
+            <label id="email-label"><input type="email" required id="email"></label>
+            <label id=""><input type="number" id="number" min="1" max="500"></label>
+            <select id="dropdown">
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+            <input type="radio" id="radio1" value="radio1" name="radios">
+            <input type="radio" id="radio2" value="radio2" name="radios">
         </form>
     </body>
 </html>
