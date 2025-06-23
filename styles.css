@@ -1,0 +1,27 @@
+body{background-color: EBD6FB;}
+
+h1{text-align: center;}
+
+#description{text-align: center;}
+
+form{
+    background-color: 4B4376;
+    padding: 10%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    label{
+        color: F6F5F2;
+        font-size:medium;
+    }
+}
+
+
+input{
+    background-color: F6F5F2;
+    margin-top: 2%;
+}
+
+template{margin-top: 2%;}
+select{margin-top: 2%;}
